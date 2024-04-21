@@ -11,30 +11,87 @@
 
     <div>   
         <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+            <img height="80px" src="assets/images/logo.svg" width="200" alt="Logo do site que é um cofre com formato de porco"/>
         </div>
     </div>
 
     <div class="bar"></div>
 
     <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+        <nav>
+            <div class="sidebar">
+                <h2>Investimentos</h2>
+                <ul class="lista">
+                    <li><a href="#">Renda Fixa</a></li>
+                </ul>
+            </div>
+        </nav>  
 
         <div class="main">
-            
+            <h1 id="inicio">Tudo sobre Renda Fixa</h1> 
+            <p><strong>Renda fixa</strong> é um termo que se refere a qualquer tipo de <i>investimento</i> que possui regras de remuneração definidas no momento da aplicação no título. Essas regras estipulam o prazo e a forma que a remuneração será calculada e paga ao investidor.</p>
+            <p>Nesse tipo de investimento, o investidor concede um empréstimo, usualmente em dinheiro, a uma entidade em troca do pagamento de juros. Dessa forma a entidade, geralmente uma instituição financeira, emite um documento onde ela se compromete a devolver o dinheiro emprestado acrescido de juros após um período preestabelecido</p>
+            <p>O investimento em renda fixa pode ser contrastado com investimentos de renda variável considerando simplesmente a previsibilidade da remuneração. Nas operações de renda fixa é possível prever ou, ao menos, estimar o rendimento do investimento, dado que as taxas e indexadores de remuneração são previamente definidos. Já nas operações de renda variável, tal previsão não é possível, pois a remuneração está associada a condições futuras do mercado que dependem de fatores econômicos imprevisíveis.</p>
+
+            <h2 id="terminologia">Terminologia</h2><small><a href="#inicio">(Voltar)</a></small>
+            <p>Alguns dos termos utilizados nas operações desse tipo de investimento são:</p>
+            <ul>
+                <li>O <b>título financeiro</b> é um documento que determina as características da operação realizada (ex.: Certificado de Depósito Bancário);</li>
+                <li>O <b>emissor</b> é a entidade, pública ou privada, que recebe o dinheiro emprestado e emite o título, sendo a responsável pelo pagamento dos juros acordados na data pré-estabelecida no ato da compra (ex.: Bancos como Itaú Unibanco, Bradesco, Banco do Brasil e financeiras de crédito, financiamento e investimento como a Omni, Lecca, Avista, etc; e no caso de títulos públicos, o Tesouro Nacional);</li>
+                <li>O <b>cedente</b>, ou <b>investidor</b>, é a pessoa, física ou jurídica, que empresta o dinheiro ao emissor.</li>
+                <li>O <b>custodiante</b>, ou <b>agente de custódia</b>, é a entidade que faz o registro do título emitido (ex.: CETIP).</li>
+                <li>O <b>principal</b> de um título, também chamado de <b>preço de custo</b> ou <b>preço de compra</b>, é o valor que o emissor recebeu ao emitir o título e que deverá ser devolvido ao cedente acrescido dos juros acordados (ex.: R$ 10.000,00);</li>
+                <li>O <b>cupom</b> de um título, também chamado de <b>taxa de juros</b> ou <b>taxa de remuneração</b>, são os juros a serem pagos pelo emissor, geralmente expressos como um percentual anual prefixado a ser calculado sobre o principal (ex.: 15,3% ao ano) ou sob forma de um percentual de algum indicador (ex.: 110% CDI a.a.) ou ainda, através da composição de um índice de inflação mais uma taxa prefixada (ex.: IPCA + 6,2% a.a.);</li>
+                <li>A <b>data de vencimento</b> é a data de término da operação, momento em que o emissor deve devolver o principal ao cedente (ex.: 10/10/2020);</li>
+            </ul>
+
+            <figure>
+                <img height="500px" src="assets/images/bancomodal_bancomodal_image_4341-1024x677.jpeg" alt="Imagem do Banco Central do Brasil em Brasília, DF.">
+                <figcaption>Imagem do Banco Central do Brasil em Brasília, DF.</figcaption>
+            </figure>
+
+            <h2 id="risco">Risco</h2><small><a href="#inicio">(Voltar)</a></small>
+            <p>Operações de renda fixa são consideradas operações simples e de baixo risco. O risco associado às operações de renda fixa está associado à capacidade da entidade que recebeu o empréstimo (o emissor do documento) em honrar a dívida que adquiriu. Tendo isso em vista, as aplicações de renda fixa são indicadas para investidores iniciantes ou conservadores, pois não expõem o investidor diretamente à volatilidade do mercado.</p>
+            <p>No entanto, outros riscos podem ser considerados ao investir em renda fixa:</p>
+            <ul>
+                <li><b>Risco de crédito:</b> possibilidade do emissor não ser capaz de devolver o valor investido (principal) e os juros na data acordada;</li>
+                <li><b>Risco da inflação:</b> possibilidade de redução do poder de compra do valor investido e dos juros no período em que o capital está investido;</li>
+                <li><b>Risco da taxa de juros:</b> possibilidade das taxas de juros subirem para níveis superiores dos disponíveis na época de emissão do título, gerando um custo de oportunidade. Esse tipo de risco está fortemente relacionado aos investimentos pré-fixados, já que nessa modalidade de investimento, a taxa é pré-estabelecida no momento da aquisição do título e não sofre mudanças até o seu resgate, assim em cenários de alta da taxa básica de juros (Taxa Selic) os investimentos pré-fixados podem não ser tão interessantes ao investidor;</li>
+                <li><b>Risco de câmbio:</b> possibilidade da taxa de câmbio de outras moedas subirem durante o período em que o capital está investido, causando perda do poder de compra em outros países;</li>
+                <li><b>Risco de reinvestimento:</b> impossibilidade do investidor realizar outras aplicações com o capital durante o período em que ele já está investido;</li>
+                <li><b>Risco de liquidez:</b> possibilidade do investidor necessitar do capital para outra finalidade antes da data acordada e não ser capaz de vender o título antecipadamente sem assumir perdas;</li>
+                <li><b>Risco político:</b> possibilidade do governo ou outros órgãos regulatórios tomarem ações que façam o título perder suas características;</li>
+                <li><b>Risco de mercado:</b> possibilidade de mudanças no mercado afetarem o retorno da operação;</li>
+                <li><b>Risco eventual:</b> possibilidade de eventos ou catástrofes naturais afetarem o retorno da operação.</li>
+            </ul>
+
+            <figure>
+                <img height="400px" src="assets/images/como-investir-bolsa-valores.jpg" alt="Imagem de um gráfico com várias ações aparecendo no fundo.">
+                <figcaption>Imagem de um gráfico com várias ações aparecendo no fundo.</figcaption>
+            </figure>
+
+            <h2 id="brasil">Renda fixa no Brasil</h2><a href="#inicio">(Voltar)</a></small>
+            <p>No Brasil, existem diversos títulos de renda fixa que são comercializados no mercado financeiro. Dentre os que são oferecidos para pessoas físicas, os mais comuns são CDB, RDB, LC, LCI, LCA, CRA, CRI, FIDC, LF, DPGE, Debêntures e títulos públicos federais através do Tesouro Direto. Com exceção do Tesouro Direto, esses títulos podem ser emitidos por entidades públicas ou privadas, e têm rentabilidade fixa ou variável, o que os classifica como <b>prefixados</b> ou <b>pós-fixados.</b></p>
+            <ul>
+                <li><b>Prefixados:</b> são os títulos cujo rendimento está associado a uma taxa de juros previamente conhecida. Nesse tipo de investimento, o portador do título resgata o valor investido na data acordada acrescido da remuneração previamente estabelecida. Alguns títulos públicos, como o Tesouro Prefixado (LTN) e o Tesouro Prefixado com Juros Semestrais (NTN série F), são exemplos de investimentos cuja rentabilidade é prefixada.</li>
+                <li><b>Pós-fixados:</b> esses títulos são, em essência, títulos de renda variável, no entanto, são classificados como renda fixa pois seu rendimento está associado a indicadores de taxas médias de juros e inflação previamente estabelecidos, cujo resultado esperado é positivo. O mais comum desses indicadores utilizados é o CDI (Certificado de Depósito Interbancário). Dessa forma, não há risco de o valor resgatado ser inferior ao valor investido. Além disso, é comum esses títulos oferecem uma compensação ou garantias sobre o resultado desses indicadores, usualmente através de uma taxa de juros prefixada a ser acrescida sobre a parte variável. A caderneta de poupança e alguns títulos públicos, como a LFT e a NTN séries B e C, são exemplos de investimentos cuja rentabilidade é pós-fixada.</li>
+            </ul>
+            <p>Com o intuito de aumentar a atratividade dos títulos, é comum que as instituições emissoras ofereçam liquidez dos títulos ofertados, permitindo que o valor investido seja resgatado antes da data acordada com condições diferenciadas, como uma rentabilidade menor, por exemplo. As condições desse resgate são estabelecidas pelo emissor ou combinadas com o investidor, e sua disponibilidade varia de instituição para instituição. O Tesouro Direto, por exemplo, emite títulos públicos prefixados e pós-fixados com prazos que variam de meses a anos, no entanto, ele garante a recompra dos títulos pelo valor que estiver sendo praticado no mercado.</p>
+            <p>Vale salientar que os títulos públicos são os investimentos mais seguros do mercado, pois contam com garantia do Tesouro Nacional e além disso, possuem liquidez diária, ou seja, podem ser resgatados a qualquer momento. Um ponto interessante a ser ressaltado é que os títulos públicos Prefixados e os títulos IPCA+ possuem marcação a mercado, isso significa que suas taxas flutuam de acordo com a expectativa dos juros futuros. Assim se uma pessoa investir em algum desses tipos de títulos e precisar resgatar o dinheiro investido antes do vencimento, poderá incorrer em prejuízo financeiro caso a taxa de juros sendo ofertada no momento da venda seja maior que a acordada no momento da compra do título. Diz-se que as taxas do Tesouro Pré (com juros ou sem) e do Tesouro IPCA+ (com juros ou sem) são inversamente proporcionais ao preço do título, ou seja, quando a taxa do título sobe, seu preço fica menor e quando a taxa desce, o preço fica maior. Por conta dessa dinâmica no mercado de títulos públicos (Exceto Tesouro Selic) é possível que investidores mais arrojados invistam de tal forma a maximizar seu lucro através de especulação. Um ponto importante é que a marcação a mercado não ocorre no Tesouro Selic, assim, esse título é considerado o investimento mais conservador do mercado e uma boa alternativa à poupança, já que seu rendimento será sempre superior.</p>
+
         </div>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
+        <nav>
+            <div class="anchors">
+                <h2>Neste Artigo</h2>
+                <ul class="lista">
+                    <li><a href="#inicio">Tudo sobre Renda Fixa</a></li>
+                    <li><a href="#terminologia">Terminologia</a></li>
+                    <li><a href="#risco">Risco</a></li>
+                    <li><a href="#brasil">Renda fixa no Brasil</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
 
     <div class="footer">
